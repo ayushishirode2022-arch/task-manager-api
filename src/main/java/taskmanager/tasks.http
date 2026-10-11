@@ -1,0 +1,11 @@
+
+### Create a task
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Learn Spring Boot",
+  "description": "Build my first REST API",
+  "status": "PENDING",
+  "dueDate": "2026-10-20"
+}
