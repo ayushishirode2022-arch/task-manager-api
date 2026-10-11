@@ -43,6 +43,28 @@ A RESTful Task Management API built using Java and Spring Boot, with MySQL for p
 
 `GET /api/tasks?page=0&size=5&sortBy=title&direction=asc`
 
+# Task Status Values
+
+-> PENDING
+-> IN_PROGRESS
+-> COMPLETED
+
+# Setup Instructions
+
+1. Clone this repository.
+2. Create a MySQL database named taskmanager.
+3. Configure the database connection using environment variables:
+    DB_URL
+    DB_USERNAME
+    DB_PASSWORD
+4. Run the application using IntelliJ IDEA or Maven.
+
+# Future Improvements
+
+Add automated tests for API endpoints.
+Add API documentation using Swagger/OpenAPI.
+Implement authentication and authorization.
+
 ## Setup
 
 1. Install Java 25, Maven (or use the Maven Wrapper), and MySQL.
